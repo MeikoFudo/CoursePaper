@@ -40,7 +40,7 @@ class MainWindow(QMainWindow):
     def __init__(self):
         super().__init__()
         self.setWindowTitle("Bitcoin Price Forecast")
-        self.setWindowIcon(QIcon('C:\\Users\\mrhor\\Downloads\\1628696167_bitcoin_4.png'))
+        self.setWindowIcon(QIcon('1628696167_bitcoin_4.png'))
         self.setGeometry(100, 100, 1000, 1000)
         self.init_ui()
 
@@ -48,7 +48,7 @@ class MainWindow(QMainWindow):
         # Установка фонового изображения
         palette = QPalette()
         palette.setBrush(self.backgroundRole(),
-                         QBrush(QPixmap("C:\\Users\\mrhor\\Downloads\\news_16_09_2021_3_cr_market_1.jpg")))
+                         QBrush(QPixmap("news_16_09_2021_3_cr_market_1.jpg")))
         self.setPalette(palette)
 
         btc_data = UploadingData("BTC-USD")
@@ -96,7 +96,7 @@ class MainWindow(QMainWindow):
         github_label = QLabel()
         github_label.setOpenExternalLinks(True)
         github_label.setText(
-            "<a href='https://github.com/MeikoFudo/CoursePaper'><img src='C:\\Users\\mrhor\\Downloads\\ad574c14aa17a899fd3abbf3cbbec62f.png' width='30' height='30'></a>")
+            "<a href='https://github.com/MeikoFudo/CoursePaper'><img src='ad574c14aa17a899fd3abbf3cbbec62f.png' width='30' height='30'></a>")
         layout.addWidget(github_label, alignment=Qt.AlignBottom | Qt.AlignRight)
         layout.addWidget(github_label, alignment=Qt.AlignBottom | Qt.AlignRight)
 
