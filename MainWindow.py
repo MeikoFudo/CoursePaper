@@ -110,7 +110,7 @@ class MainWindow(QMainWindow):
         self.num_days_input.setFont(font)
 
     def show_forecast(self):
-        model_path = 'C:\\Users\\mrhor\\Downloads\\my_model.h5'
+        model_path = 'C:\\Users\\mrhor\\Downloads\\my_LSTM.h5'
         model = load_model(model_path)
 
         num_days = int(self.num_days_input.text())
