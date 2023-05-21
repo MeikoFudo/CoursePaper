@@ -31,5 +31,11 @@ https://docs.google.com/document/d/1lFVjC08PQlclI6XilTQZiRhOE0Aqo6hiy2H_XYk9_Qg/
 Версия 0.3
   Оценка достоверности результатов модели
   Визуализации результатов прогнозирования
+  
+  ![image](https://github.com/MeikoFudo/CoursePaper/assets/80260272/27866d65-da84-448b-8472-b3aa06e38370)
+![image](https://github.com/MeikoFudo/CoursePaper/assets/80260272/d11cb147-d98a-47db-b9b6-408c9158b5bb)
+
+  
+  
 
 ![image](https://github.com/MeikoFudo/CoursePaper/assets/80260272/48e87089-8839-4cd8-9ced-360b96209e90)
